@@ -4,7 +4,7 @@
 
 #include <Windows.h>
 
-#pragma comment(linker, "/SUBSYSTEM:WINDOWS")
+#pragma comment(linker, "/SUBSYSTEM:WINDOWS") // use winmain, not main, echo off
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
 {

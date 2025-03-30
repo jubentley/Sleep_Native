@@ -16,7 +16,7 @@ subsystem.
 Therefore functionally its the same thing, although triggered on your command and ofcourse moving the mouse will wake the monitor 
 turn back on again.
 
-## Sleep_Native VS Sleep_Managed
+## Sleep_Native vs Sleep_Managed
 Sleep_Native is written in C and produces a pure machine-code executable (as reflected by its size of 10KB) Sleep_Managed is written 
 in C# and is more modern, conventional, transparent etc. 
 

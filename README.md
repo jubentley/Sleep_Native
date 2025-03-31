@@ -20,10 +20,17 @@ Strangely they both call the same function,
 ```C
   LRESULT SendMessage(HWND, UINT, WPARAM, LPARAM);
 ```
-As,
+As (C),
 ```C
   SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)2);
 ```
+Or (C#),
+```C#
+  [DllImport("user32.dll", SetLastError = true)]
+  private static extern IntPtr SendMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);
+```
+        
+
 within the Windows subsystem 
 using the C Message based system that has operated Windows IPC (Inter Process Communication) since (coincidently) 
 "going graphical" in '85 with Windows 1.0 (was I around then? No, but I have used actual DOS, Win 3.1 & '95), so in many regards theres a bit of OS 101 right there.

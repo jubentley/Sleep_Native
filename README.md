@@ -1,11 +1,7 @@
 # Sleep
 
 ## Use-Case
-
-Your watching a movie, and you have a laptop in front of you as your creating that linkedin post thats gonna go more viral than 
-triple-bubble extra large 
-bubble tea, but something really cool comes up on the movie, but you cant enjoy it cause theres a bright laptop obstructiong 
-your vision and you just want a quick little button to press to turn that monitor off. Some laptops (and perhaps keyboards) have this functionality as a dedicated hardware button.
+I remember a long time ago I had a Sony VAIO Laptop and it had a dedicated hardware button called "DISPLAY OFF" that would, turn the display off (likely in the same way as this Application) and I wanted to replicate that functionality, especially as I have a tendancy to use the laptop during youtube ads 😆.
 
 ## Operation
 
@@ -34,20 +30,8 @@ the marginal performance gains are overshadowed by the benefits of readability, 
 isolated run-time nature of Managed (C#) Code, and the level of Operating System trust that reflects this.
 
 <i>So hows that relevant here?</i> \
-
-
-Two factors, Group Policy and Antivirus. Group Policy refers to an Administrated system where Native code is generally disabled by 
-default though I wouldnt really expect this application (either Native or Managed) to be used in that sort of situation. Antivirus is 
-a big one though as I ran the Native version through VirusTotal and ofcourse the lesser-known-if-at-all scanners flagged 
-it but none of the major companies did, mainly because one saw it as "simply an executable" and an unknown one at that and the others 
-actually looked into what it did on a machine-code/assembly level. While that happened with the Native version it would be less likely to occur with the Managed version.
-
-
-
-
-
-
-
-
-
-
+Simply put, Group Policy, Antivirus and/or default Operating System setting will be much more inclined to block the Native version of this Application from running.<br>
+Group Policy is likely to absolutely deny the running of a unknown executable, though I wouldnt expect this application to be used in an Administrated System, ie at work.<br>
+Antivirus, especially the less capable ones have been know to arbitrarily flag Native programs, not the case with the major ones though.<br>
+These days (not the case earlier) the Operating system and User Account Control (starting in Vista) will prompt the user to confirm the execution of a native program.<br>
+All these factors are lessenend or downright negated by the use of a Managed (C#) Application.

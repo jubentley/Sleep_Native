@@ -16,9 +16,13 @@ turn back on again.
 Sleep_Native is written in C and produces a pure machine-code executable (as reflected by its size of 10KB, before the icon was added) Sleep_Managed is written 
 in C# and is more modern, conventional, transparent etc. 
 
-Strangely they both call the same function 
+Strangely they both call the same function,
 ```C
   LRESULT SendMessage(HWND, UINT, WPARAM, LPARAM);
+```
+As,
+```C
+  SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)2);
 ```
 within the Windows subsystem 
 using the C Message based system that has operated Windows IPC (Inter Process Communication) since (coincidently) 
@@ -32,6 +36,6 @@ isolated run-time nature of Managed (C#) Code, and the level of Operating System
 <i>So hows that relevant here?</i> \
 Simply put, Group Policy, Antivirus and/or default Operating System setting will be much more inclined to block the Native version of this Application from running.<br>
 Group Policy is likely to absolutely deny the running of a unknown executable, though I wouldnt expect this application to be used in an Administrated System, ie at work.<br>
-Antivirus, especially the less capable ones have been know to arbitrarily flag Native programs, not the case with the major ones though.<br>
-These days (not the case earlier) the Operating system and User Account Control (starting in Vista) will prompt the user to confirm the execution of a native program.<br>
+Antivirus, especially the less capable ones have been know to arbitrarily flag Native programs, not the case with the major ones though, and also not the case with GitHub as it does scan uploaded Releases (such as the ones in these repositories) and will take them down (and likely have a negative impact on myself) if they believe them to be malicious.<br>
+These days (not the case earlier) the Operating System and User Account Control (starting in Vista, a lot of people actually disabled UAC, though they did have paid antivirus as a safeguard, some knowledge of what they were doing and were generally capable of reformatting the OS if it became compromised) will prompt the user to confirm the execution of a native program, especially one that has not been digitally signed (expensive), is not from a major organisation nor has the executable been seen before.<br>
 All these factors are lessenend or downright negated by the use of a Managed (C#) Application.

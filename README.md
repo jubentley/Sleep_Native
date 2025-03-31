@@ -30,10 +30,12 @@ using the C Message based system that has operated Windows IPC (Inter Process Co
 
 <i>But whats the difference between the two in a modern context?</i> \
 Some may argue Native (C) is more efficient and responsive, some may argue that with todays processors the difference is negligable and 
-the marginal performance gains are overshadowed by the benefits of readability, familiarity and the security involved with the 
-isolated run-time nature of Managed (C#) Code.
+the marginal performance gains are overshadowed by the benefits of readability, familiarity, testability and the security involved with the 
+isolated run-time nature of Managed (C#) Code, and the level of Operating System trust that reflects this.
 
 <i>So hows that relevant here?</i> \
+
+
 Two factors, Group Policy and Antivirus. Group Policy refers to an Administrated system where Native code is generally disabled by 
 default though I wouldnt really expect this application (either Native or Managed) to be used in that sort of situation. Antivirus is 
 a big one though as I ran the Native version through VirusTotal and ofcourse the lesser-known-if-at-all scanners flagged 

@@ -24,7 +24,7 @@ As (C),
 ```C
   SendMessage(HWND_BROADCAST, WM_SYSCOMMAND, SC_MONITORPOWER, (LPARAM)2);
 ```
-Or (C~C#),
+Or (C# C),
 ```C#
   [DllImport("user32.dll", SetLastError = true)]
   private static extern IntPtr SendMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);

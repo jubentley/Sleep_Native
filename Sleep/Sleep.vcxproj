@@ -29,6 +29,7 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Sleep.ico" />
+    <Image Include="Sleep2.ico" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

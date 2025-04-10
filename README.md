@@ -1,5 +1,10 @@
 # Sleep
 
+## Versions
+This application comes in two variaties:
+* Native code in C: [github.com/jubentley/Sleep_Native ](https://github.com/jubentley/Sleep_Native)
+* Managed code in C# [github.com/jubentley/Sleep_Managed](https://github.com/jubentley/Sleep_Managed)
+
 ## Use-Case
 I remember a long time ago I had a Sony VAIO Laptop and it had a dedicated hardware button called "DISPLAY OFF" that would, turn the display off (likely in the same way as this Application) and I wanted to replicate that functionality.
 

@@ -6,9 +6,9 @@ This application comes in two variaties:
 * Managed code in C# [github.com/jubentley/Sleep_Managed](https://github.com/jubentley/Sleep_Managed)
 
 ## Use-Case
-I remember a long time ago I had a Sony VAIO Laptop and it had a dedicated hardware button called "DISPLAY OFF" that would, turn the display off (likely in the same way as this Application) and I wanted to replicate that functionality.
-
 I personally use this program as I tend to watch movies on the television while using the laptop and desired a quick and simple way to turn the monitor off when needed.
+
+I remember a long time ago I had a Sony VAIO Laptop and it had a dedicated hardware button called "DISPLAY OFF" that would, turn the display off (likely in the same way as this Application) and I wanted to replicate that functionality.
 
 ## Operation
 

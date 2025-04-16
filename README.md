@@ -9,7 +9,7 @@ This application comes in two variaties:
 
 ## Overview
 
-* <i>Press the button, monitors turn off</i>
+* <i>Press the button, monitor/s turn off</i>
 
 * I personally use this program as I tend to watch movies on the television while using the laptop and desired a quick and simple way to turn the monitor off when needed.
 

@@ -1,6 +1,6 @@
 # Sleep
 
-![og-image](Screenshot 2025-04-16 134347.jpg)
+![og-image](Screenshot%202025-04-16%20134347.jpg)
 
 ## Versions
 This application comes in two variaties:

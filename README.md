@@ -7,7 +7,7 @@ This application comes in two variaties:
 * Native code in C: [github.com/jubentley/Sleep_Native ](https://github.com/jubentley/Sleep_Native)
 * Managed code in C# [github.com/jubentley/Sleep_Managed](https://github.com/jubentley/Sleep_Managed)
 
-## Use-Case
+## Overview
 
 * <i>Press the button, monitors turn off</i>
 

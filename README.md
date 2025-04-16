@@ -9,11 +9,13 @@ This application comes in two variaties:
 
 ## Use-Case
 
-<i>press the button, monitors turn off</i>
+* <i>Press the button, monitors turn off</i>
 
-I personally use this program as I tend to watch movies on the television while using the laptop and desired a quick and simple way to turn the monitor off when needed.
+* I personally use this program as I tend to watch movies on the television while using the laptop and desired a quick and simple way to turn the monitor off when needed.
 
-I remember a long time ago I had a Sony VAIO Laptop and it had a dedicated hardware button called "DISPLAY OFF" that would, turn the display off (likely in the same way as this Application) and I wanted to replicate that functionality.
+* I remember a long time ago I had a Sony VAIO Laptop and it had a dedicated hardware button called "DISPLAY OFF" that would, turn the display off (likely in the same way as this Application) and I wanted to replicate that functionality.
+
+* <i>Use the managed version to prevent AV, OS issues</i>
 
 ## Operation
 

@@ -3,7 +3,7 @@
 ![og-image](Screenshot%202025-04-16%20134347.jpg)
 
 ## Versions
-This application comes in two variaties:
+This application comes in two varieties:
 * Native code in C: [github.com/jubentley/Sleep_Native ](https://github.com/jubentley/Sleep_Native)
 * Managed code in C# [github.com/jubentley/Sleep_Managed](https://github.com/jubentley/Sleep_Managed)
 
